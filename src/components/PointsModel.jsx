@@ -8,13 +8,13 @@ import * as THREE from 'three'
 export default function PointsModel() {
 
     const points = useRef()
-    const count = 400000
+    const count = 40000
     const uniforms = useMemo(() => ({
         uTime: {
             value: 0.0
         },
         uRadius: {
-            value: 10.0
+            value: 15.0
         }
     }), [])
 
